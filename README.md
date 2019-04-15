@@ -4,15 +4,13 @@
 
 ## Project Overview
 
-In the CliffWalking environment, the agent navigates a 4x12 gridworld. Temporal-Difference Methods are implemented to teach an agent to walk through the grid without falling off the cliff using OpenAI Gym.
+ Using OpenAI Gym's CliffWalking environment, I implemented temporal-difference(TD) methods to teach an agent to walk through the grid without falling off the cliff. In the CliffWalking environment, the agent navigates a 4x12 gridworld.                        .
 
 ![Cliff](images/cliff.jpg)
 
 ```
-   This is a simple implementation of the Gridworld Cliff
-   reinforcement learning task.
-   Adapted from Example 6.6 from Reinforcement Learning: An Introduction
-   by Sutton and Barto:
+   This is a simple implementation of the Gridworld Cliff reinforcement learning task.
+   Adapted from Example 6.6 from Reinforcement Learning: An Introduction by Sutton and Barto:
    http://people.inf.elte.hu/lorincz/Files/RL_2006/SuttonBook.pdf
 
    With inspiration from:
@@ -25,3 +23,14 @@ In the CliffWalking environment, the agent navigates a 4x12 gridworld. Temporal-
    and a reset to the start. An episode terminates when the agent reaches the goal.
 
 ```
+### Project Instructions
+
+  1. Clone the repository and navigate to the downloaded folder.
+    ```
+    git clone https://github.com/adityasaxena26/OpenAI-Gym-CliffWalkingEnv.git
+    cd OpenAI-Gym-CliffWalkingEnv
+    ```
+  2. Open Jupyter notebook:
+    ``` jupyter notebook```
+
+    Open 'cliffwalking_temporal_difference.ipynb'
